@@ -7,6 +7,7 @@ vim.opt.nu = true
 vim.opt.relativenumber = true
 
 vim.opt.colorcolumn = "80"
+vim.opt.textwidth = 80
 
 vim.opt.list = true
 vim.opt.listchars = {
@@ -16,4 +17,6 @@ vim.opt.listchars = {
 
 vim.opt.cursorline = true
 
-vim.opt.scrolloff = 10
+vim.opt.scrolloff = 7
+
+vim.opt.termguicolors = true
