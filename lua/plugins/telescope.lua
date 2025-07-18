@@ -13,6 +13,7 @@ return {
             require("telescope.themes").get_dropdown({}),
           },
         },
+        -- allows for preview to be seen
         defaults = {
           layout_config = {
             horizontal = {
