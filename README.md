@@ -11,13 +11,15 @@ This README will probably only contain keymaps for now just for my own
 reference.
 
 ## Keymaps
-- <Space>fe = Go to netrw
-- <Space>sf = Fuzzy find to search files
-- <Space>sg = Fuzzy find for live grep
-- <Space>to = Fuzzy find TODOs (and NOTEs, WARNs, etc.)
+- leader-fe = Go to netrw
+- leader-sf = Fuzzy find to search files
+- leader-sg = Fuzzy find for live grep
+- leader-to = Fuzzy find TODOs (and NOTEs, WARNs, etc.)
 - grd = Goto Definition
 - grD = Goto Declaration
 - gO  = Open Document Symbols (Document symbols are variables, functions, etc.)
 - gW  = Open Workspace Symbols (Like gO, but for the whole project)
 - grT = Goto Type Definition
 - gD  = Show Diagnostics (LSP diagnostics like errors and warnings)
+
+Note: "leader" is "Space".
