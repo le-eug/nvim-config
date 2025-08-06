@@ -36,7 +36,3 @@ vim.api.nvim_create_autocmd("TextYankPost", {
 
 vim.opt.ignorecase = true
 vim.opt.smartcase = true
-
--- vim.cmd("colorscheme ron")
--- vim.cmd("colorscheme torte")
-vim.cmd("colorscheme wildcharm")
