@@ -18,7 +18,7 @@ vim.opt.listchars = {
 
 vim.opt.cursorline = true
 
-vim.opt.scrolloff = 7
+vim.opt.scrolloff = 10
 
 vim.opt.termguicolors = true
 

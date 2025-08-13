@@ -1,22 +1,19 @@
 return {
-	-- BLACK-BG CATPPUCCIN
+	-- Lazy
 	{
-		"catppuccin/nvim",
-		name = "catppuccin",
+		"olimorris/onedarkpro.nvim",
 		config = function()
-			require("catppuccin").setup({
-				flavour = "mocha",
-				term_colors = true,
-				transparent_background = false,
-				color_overrides = {
-					mocha = {
-						base = "#000000",
-						mantle = "#000000",
-						crust = "#000000",
-					},
+			require("onedarkpro").setup({
+				colors = {},
+				options = {
+					cursorline = true,
+					transparency = false,
+				},
+				highlights = {
+					ColorColumn = { bg = "#2d3748" },
 				},
 			})
-			vim.cmd.colorscheme("catppuccin")
+			vim.cmd("colorscheme onedark_dark")
 		end,
 	},
 }
