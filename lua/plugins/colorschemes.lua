@@ -1,19 +1,15 @@
 return {
-	-- Lazy
+	-- Using Lazy
 	{
-		"olimorris/onedarkpro.nvim",
+		"navarasu/onedark.nvim",
+		priority = 1000, -- make sure to load this before all the other start plugins
 		config = function()
-			require("onedarkpro").setup({
-				colors = {},
-				options = {
-					cursorline = true,
-					transparency = false,
-				},
-				highlights = {
-					ColorColumn = { bg = "#2d3748" },
-				},
+			require("onedark").setup({
+				style = "dark",
+				transparent = true, -- so its black lol
 			})
-			vim.cmd("colorscheme onedark_dark")
+			-- Enable theme
+			require("onedark").load()
 		end,
 	},
 }
